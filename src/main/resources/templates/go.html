@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf8">
+</head>
+<body>
+<ul>
+<form th:attr="action=${url}" method="POST">
+<input th:each="entry : ${params.entrySet()}"
+    th:attr="name=${entry.key},value=${entry.value}"
+    type="hidden">
+<input type="submit" value="go">
+</form>
+</ul>
+
+</body>
+
+</html>
