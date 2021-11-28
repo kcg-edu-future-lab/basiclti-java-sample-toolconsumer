@@ -25,6 +25,6 @@ public class GoController {
             parameters, key, secret, url, "POST");
         model.addAttribute("url", url);
         model.addAttribute("params", signedParameters);
-		return "go";
+        return "go";
 	}
 }
