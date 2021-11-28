@@ -1,0 +1,4 @@
+server:
+  servlet:
+    context-path: /basiclti-java-sample-toolconsumer
+
