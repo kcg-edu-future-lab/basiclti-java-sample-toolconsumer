@@ -2,3 +2,16 @@ server:
   servlet:
     context-path: /basiclti-java-sample-toolconsumer
 
+tools:
+  - name: provider1
+    url: https://example.com/app/path
+    key: 6bcfb57a-600a-6f41-0afa-8f042a23a147
+    secret: CfzJl8EpJTin
+  - name: provider2
+    url: https://example.com/app2/path
+    key: c3e29cae-6b00-7d12-09b8-ad00751694d8
+    secret: 9plwv09dGXCb
+  - name: provider3
+    url: https://example.com/app3/path
+    key: 779a5edb-ce38-959d-bc31-5e1e18be8edd
+    secret: tsFwKCXmcRc8
